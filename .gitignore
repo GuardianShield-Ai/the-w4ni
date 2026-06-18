@@ -3,3 +3,9 @@ node_modules/
 .env.local
 *.log
 .DS_Store
+
+# VibeKit internal — agent state, never deployed (architecture.md: two ownership tiers)
+.openclaw/
+.vibekit/
+memory/
+node_modules/
