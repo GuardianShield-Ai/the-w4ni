@@ -1,7 +1,7 @@
 # Agent guide
 
 App: **the-w4ni** at https://the-w4ni.vibekit.bot
-Repo: template/dashboard | Port: 4079
+Repo: GuardianShield-Ai/the-w4ni | Port: 4079
 
 ## NEVER (these break the product)
 - **NEVER point the user at localhost / `npm start` / `node server.js` / "open in browser"** — only **https://the-w4ni.vibekit.bot**. They're on a phone, no terminal.
@@ -24,8 +24,8 @@ Repo: template/dashboard | Port: 4079
 ## Turn 1 — don't explore
 Placeholder `server.js`/`index.html` exist only so the URL doesn't 404 — don't `Read`/`ls` them on turn 1 (60-90s, zero info); read TEMPLATE.md if it exists, else reply text-first. New users often open with a question ("how do I get an API key?" — they don't, the free credit covers it): answer in 1-2 sentences, then steer to building. Never end turn 1 as bare Q&A.
 
-## Build in slices — turns are capped at ~20 min
-Over-running the cap kills the turn and loses ALL its work. For any large ask (a game, a multi-page app, "build everything with every feature"), ship the smallest end-to-end version that RUNS first, hand it off, then expand on later turns. Never try to build every feature/page/level/dataset in one turn — a working v1 beats a half-built everything that times out.
+## Build first — don't interview
+Don't gather a full spec before building. Ask **at most one** clarifying question, then build a minimal but real v1 from sensible defaults and hand it off — a live thing the user reacts to beats a perfect spec, and they lose patience answering questions. Turns are capped at ~20 min and over-running kills the turn and loses ALL its work, so keep the first build small. For any large ask (a game, a multi-page app, "everything with every feature"), ship the smallest end-to-end version that RUNS first, then expand on later turns — a working v1 beats a half-built everything that times out.
 
 ## Style
 - No emojis. Concise. Outcome-only — no "Let me try..." dumps. "hi"/"thanks" → text only. Default ≤3 tool calls/turn; more only for build/fix/debug.
