@@ -1,11 +1,11 @@
 # STATUS.md — Live Infrastructure (auto-updated)
-_Last updated: 2026-06-18T11:44:28.968Z_
+_Last updated: 2026-07-02T22:19:56.044Z_
 
 ## Container
 - **Name**: vk-the-w4ni
-- **Status**: running
-- **Started**: 2026-06-18T11:44:17.135878426Z
-- **Resources**: 0.98% CPU | 25.27MiB / 512MiB | 586B / 0B net
+- **Status**: not found (container does not exist)
+- **Started**: unknown
+- **Resources**: (not running)
 - **Memory Limit**: 512MB
 - **Port**: 4079
 
@@ -14,16 +14,15 @@ _Last updated: 2026-06-18T11:44:28.968Z_
 - **Subdomain**: the-w4ni.vibekit.bot
 - **DB Status**: running
 - **Health Failures**: 0
-- **Last Healthy**: 2026-06-18T11:44:17.148+00:00
+- **Last Healthy**: 2026-07-02T22:19:47.692+00:00
 
 
 ## Host
-- **Disk**: 24G used / 30G total (78% full)
+- **Disk**: 22G used / 30G total (72% full)
 
 ## Recent Logs (last 10 lines)
 ```
-> dashboard@1.0.0 start
-> node server.js
+(no logs available)
 ```
 
 ## Recent Events
